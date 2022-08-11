@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(218, 23%, 16%);
+}
+
+.advice{
+    font-family: 'Heebo', sans-serif;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 50%;
+    height: 300px;
+    background-color:hsl(217, 19%, 24%);
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction: column;
+}
+
+.id-box{
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 5px;
+    /* border: 1px solid black; */
+    /* margin: 10px 0; */
+}
+
+.advice-box{
+    text-align: center;
+    color:white;
+    /* border: 1px solid green; */
+    width: 100%;
+    height: auto;
+    font-size: 1.5rem;
+    /* margin: 20px auto; */
+}
+
+.dice{
+    position:relative;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:aquamarine;
+    position:absolute;
+    bottom:-25px;
+}
+
+.dice img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.dice:hover{
+    cursor: pointer;
+    -webkit-box-shadow:0px 0px 19px 10px rgba(45,255,196,0.9);
+-moz-box-shadow: 0px 0px 19px 10px rgba(45,255,196,0.9);
+box-shadow: 0px 0px 19px 10px rgba(45,255,196,0.9);
+}

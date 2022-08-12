@@ -16,3 +16,11 @@ const advice = fetch(url)
 document.querySelector('.dice').addEventListener('click', ()=>{
     window.location.reload();
 })
+
+// Spinning on load 
+window.addEventListener('load',()=>{
+    document.querySelector('h5').style.visibility='visible';
+    document.querySelector('.advice').style.visibility='visible';
+    document.querySelector('.attribution').style.visibility='visible';
+    document.querySelector('.lds-hourglass').style.display='none';
+})
